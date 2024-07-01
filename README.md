@@ -85,7 +85,6 @@ npm run dev</code></pre>
 
 <footer>
     <p>Feel free to reach out with any questions or feedback. Enjoy using GameVille!</p>
-    <p>&copy; 2024 GameVille Victor Jimenez</p>
 </footer>
 </body>
 </html>
