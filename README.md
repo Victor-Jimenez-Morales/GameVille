@@ -84,10 +84,9 @@ npm run dev</code></pre>
     <li>Open a pull request.</li>
 </ol>
 
-<h2 id="license">License</h2>
-<p>This project is licensed under the MIT License. See the <code>LICENSE</code> file for details.</p>
-
-<p>Feel free to reach out with any questions or feedback. Enjoy using GameVille!</p>
-
+<footer>
+    <p>Feel free to reach out with any questions or feedback. Enjoy using GameVille!</p>
+    <p>&copy; 2024 Burger's Masters Victor Jimenez</p>
+</footer>
 </body>
 </html>
