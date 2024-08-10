@@ -24,10 +24,14 @@ class Home extends Component
         $videogames_genres = Genre::orderBy('name', 'asc')->get();
         $categories = Category::where('name', '!=', 'Videojuegos')->orderBy('name', 'asc')->get();
         $new_releases = Product::orderBy('release_date', 'desc')->limit(6)->get();
-        $top_sales = Product::select('products.*', DB::raw('SUM(order_details.quantity) as quantity'))
-            ->join('order_details', 'products.id', '=', 'order_details.product_id')
-            ->groupBy('products.id')
-            ->orderBy('quantity', 'desc')
+        $top_sales = Product::select('products.*', 'top_sales.quantity')
+            ->join(DB::raw('(select product_id, sum(quantity) as quantity
+                            from order_details
+                            group by product_id) as top_sales'),
+                   function($join){
+                      $join->on('products.id', '=', 'top_sales.product_id');
+                   })
+            ->orderBy('top_sales.quantity', 'desc')
             ->limit(3)
             ->get();
 
