@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GameVille - Video Game E-commerce Platform</title>
-</head>
+
 <body>
 
 <h1>GameVille - Video Game E-commerce Platform</h1>
@@ -17,7 +13,6 @@
     <li><a href="#installation">Installation</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
 </ul>
 
 <h2 id="introduction">Introduction</h2>
@@ -88,10 +83,8 @@ npm run dev</code></pre>
     <li>Open a pull request.</li>
 </ol>
 
-<h2 id="license">License</h2>
-<p>This project is licensed under the MIT License. See the <code>LICENSE</code> file for details.</p>
-
-<p>Feel free to reach out with any questions or feedback. Enjoy using GameVille!</p>
-
+<footer>
+    <p>Feel free to reach out with any questions or feedback. Enjoy using GameVille!</p>
+</footer>
 </body>
 </html>
