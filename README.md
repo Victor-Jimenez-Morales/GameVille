@@ -5,6 +5,8 @@
 
 <h1>GameVille - Video Game E-commerce Platform</h1>
 
+<a href="https://gameville" target="_blank">Visit page here!</a>
+
 <h2>Table of Contents</h2>
 <ul>
     <li><a href="#introduction">Introduction</a></li>
